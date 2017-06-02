@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear_desc"
+        android:layout_toRightOf="@+id/icon"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beer_name"
+            android:textSize="@dimen/text_list_title"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp"
+            android:textColor="@color/listText"/>
+        <TextView
+            android:id="@+id/created_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:layout_marginRight="10dp"
+            android:text="@string/beer_created_desc"
+            android:textSize="@dimen/text_list_desc"
+            android:textColor="@color/listText"/>
+        <TextView
+            android:id="@+id/created"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beer_created"
+            android:textSize="@dimen/text_list_desc"
+            android:textColor="@color/listText"
+            android:layout_toRightOf="@+id/created_desc"
+            android:layout_below="@+id/name"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="64px"
+        android:background="@drawable/icon"
+
+        android:layout_height="64px"
+        android:layout_marginRight="20dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

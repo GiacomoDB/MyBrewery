@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MyBrewery</string>
+    <string name="beer_name">Beer Name</string>
+    <string name="beer_created">xx:xx:xx</string>
+    <string name="beer_created_desc">Created:</string>
+    <string name="title_activity_beer_display">BeerDisplay</string>
+    <string name="title_activity_asdasdasdasd">asdasdasdasd</string>
+    <string name="action_fav">Favourites</string>
+    <string name="title_activity_favourites">favourites</string>
+    <string name="description">Lorem ipsum dolor sit amet, cras ut porta nec nunc sed. Enim metus justo lacinia risus enim mattis, nam voluptatem ornare congue asperiores elit, wisi neque enim penatibus. </string>
+    <string name="abv">Abv: N/A</string>
+    <string name="ibu">IBU: N/A</string>
+    <string name="srm">SRM: N/A</string>
+    <string name="og">Organic: N/A</string>
+    <string name="available">N/A</string>
+</resources>
